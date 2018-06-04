@@ -1,0 +1,6 @@
+.fix-height {
+    height: 350px;
+    overflow-y: scroll;
+    padding: 20px;
+    scroll-behavior: smooth;
+}

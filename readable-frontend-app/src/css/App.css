@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arvo, sans-serif;  
+  background-color: #f7f7f7;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.no-results {
+  color: #af0000;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: left;
+  margin: 0 0 0 25%;
+  padding: 160px 0 0 0;
+}
+  
+.no-results span {
+  font-family: "Alvo", Helvetica, sans-serif;
+  cursor: pointer;
+  font-style: oblique;
+  font-size: 1.25em;
+  color: #008080;
+  display: block;
+  margin: 30px 20% 0 0;
+}
+
+.posts {
+  padding-top: 60px;
+  margin-left: 18%;  
+  width: 80%;
+  background-color: #f7f7f7;
+}
+
+.loading {
+  align-self: center;
+  padding: 20% 0;
+  margin: 0 50%;
+}

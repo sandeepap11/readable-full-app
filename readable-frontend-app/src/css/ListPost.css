@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.post a, .post .post-title{
+    width: 100%;
+  }
+  
+  .btn-add-post {
+    position: fixed;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: none;
+    background: #f42424;
+    background-image: url('../icons/add.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 28px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-size: 0;
+    right: 25px;
+    top: 25px;
+  }
+  .btn-add-post:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16), 0 5px 10px rgba(0, 0, 0, 0.23);
+  }
+  .posts-header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    
+  }
+  
+  .posts-sort {
+    font-family: Raleway, monospace, sans-serif;
+    align-self: flex-end;
+    height: 25px;
+    font-size: 15px;
+  }
+
+  .posts-sort>select {  
+    font-family: Raleway, monospace, sans-serif; 
+    color: #000000;
+    border-radius: 20px;
+    height: 35px;
+    font-size: 15px;
+    padding: 4px;
+    background-color: #e7e7e7;
+    border:  #ffffff 2px solid;
+    font-weight: bold;
+  }
+  
+  .posts-heading {
+    font-family: "Open Sans", monospace, sans-serif;
+    text-align: left;
+    width: 55%;
+    color: #9400d3;
+    font-size: 55px;
+  }
+  
+  .posts-list {
+    list-style: none;
+  }
+
+  .search {
+    
+    margin-top: 10px;
+    height: 35px;
+    display: flex;    
+    width: 50%;
+  }
+
+  .search input, .search button {
+    
+    margin: 0;
+    border:none;;
+    background-color: #ffffff;
+    border: 2px solid #808080;
+    padding-left: 10px;
+  }
+  .search input {
+    font-family: "Open Sans", monospace, sans-serif;
+    border-right: none;
+    width: 85%;
+    border-radius: 20px 0 0 20px;
+    font-size: 17px;
+    color: #000080;
+    font-style: oblique;
+  }
+  .search button {
+    
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    background-image: url('../icons/close.png');
+    width: 35px;
+    background-size: contain;
+    
+  }
+
+  .search button:hover {
+    background-color: #d3d3d3
+  }
+
+  .search-count {
+    font-family: "Open Sans", monospace, sans-serif;
+    color: #a52a2a;
+    margin-left: 20%;
+    margin-bottom: 10px;
+  }

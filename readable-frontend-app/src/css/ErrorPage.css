@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.no-results{
+    color: #af0000;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    margin: 0 0 0 25%;
+    padding: 160px 0 0 0;
+  }
+  
+.no-results span {
+    font-family: "Alvo", Helvetica, sans-serif;
+    cursor: pointer;
+    font-style: oblique;
+    font-size: 1.25em;
+    color: #008080;
+    display: block;
+    margin: 30px 20% 0 0;
+    }
+  
+.no-results .page-not-found {
+    cursor: default;
+  }
